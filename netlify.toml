@@ -1,11 +1,5 @@
-[[plugins]]
-  package = "@netlify/plugin-functions"
-  
 [build]
-  command = "npm run start-server" 
-  publish = "build"  # Promenete go ova vo direktoriumot kade se generira izgradeniot proekt.
-
-[[redirects]]
-  src = "/db.json"
-  dest = "/db.json"
-  force = true
+  command = "npm run build"
+  
+[dev]
+  command = "json-server --watch db.json"
