@@ -1,8 +1,8 @@
-import React from "react";
-import Navbar from "../components/Navbar";
-import AboutUsCon from "../components/AboutUsCon";
-import CoffeShopCon from "../components/CoffeShopCon";
-import MeetCeo from "../components/MeetCeo";
+import Navbar from "../features/navbar/Navbar";
+import AboutUsCon from "../features/about/AboutUsCon";
+import CoffeShopCon from "../features/shop/CoffeShopCon";
+import MeetCeo from "../features/about/MeetCeo";
+
 import Footer from "./Footer";
 
 const AboutSection = () => {

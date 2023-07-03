@@ -1,10 +1,10 @@
-import Navbar from "../components/Navbar";
-import CheckDetailsMain from "../components/CheckDetailsMain";
+import Navbar from "../features/navbar/Navbar";
+import CheckDetailsMain from "../features/CheckDetailsMain";
 import { useFetchCoffeIdQuery } from "../apis/coffesApi";
 import ImgLine from "../img/line.png";
 import Footer from "./Footer";
 import { useParams } from "react-router";
-import RandomDetailsCards from "../components/RandomDetailsCards";
+import RandomDetailsCards from "../features/shop/RandomDetailsCards";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 
 const CheckDetals = () => {

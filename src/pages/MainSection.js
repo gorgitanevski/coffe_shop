@@ -1,7 +1,7 @@
 import React from "react";
 import mainImg from "../img/main-photo.png";
-import Navbar from "../components/Navbar";
-import Button from "../components/Button";
+import Navbar from "../features/navbar/Navbar";
+import Button from "../ui/Button";
 
 const MainSection = () => {
   return (

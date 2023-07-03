@@ -1,6 +1,5 @@
-import React from "react";
-import imgCeo from "../img/ceo.jpg";
-import lineImg from "../img/line.png";
+import imgCeo from "../../img/ceo.jpg";
+import lineImg from "../../img/line.png";
 import { faker } from "@faker-js/faker";
 
 const MeetCeo = () => {

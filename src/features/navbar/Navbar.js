@@ -3,8 +3,8 @@ import NavbarLinks from "./NavbarLinks";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 import { AiOutlineShoppingCart } from "react-icons/ai";
-import Cart from "./Cart";
-import CoffeContext from "../context/coffeContext";
+import Cart from "../cart/Cart";
+import CoffeContext from "../../context/coffeContext";
 
 const Navbar = ({ color }) => {
   const [isOpen, setIsOpen] = useState(false);

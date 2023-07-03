@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import CoffeContext from "../context/coffeContext";
+import CoffeContext from "../../context/coffeContext";
 import { Link, useNavigate } from "react-router-dom";
 import { nanoid } from "@reduxjs/toolkit";
 

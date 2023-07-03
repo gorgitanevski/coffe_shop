@@ -1,9 +1,9 @@
 import { Route, Routes } from "react-router-dom";
-import MainSection from "./sections/MainSection";
-import AboutSection from "./sections/AboutSection";
-import ShopSection from "./sections/ShopSection";
-import ContactSection from "./sections/ContactSection";
-import CheckDetals from "./sections/CheckDetals";
+import MainSection from "./pages/MainSection";
+import AboutSection from "./pages/AboutSection";
+import ShopSection from "./pages/ShopSection";
+import ContactSection from "./pages/ContactSection";
+import CheckDetals from "./pages/CheckDetals";
 
 const App = () => {
   return (

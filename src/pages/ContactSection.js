@@ -1,7 +1,7 @@
 import React from "react";
-import Input from "../components/input";
+import Input from "../ui/input";
 import bgImg from "../img/contact.jpg";
-import Navbar from "../components/Navbar";
+import Navbar from "../features/navbar/Navbar";
 
 const ContactSection = () => {
   return (

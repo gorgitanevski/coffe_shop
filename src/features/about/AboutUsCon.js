@@ -1,8 +1,7 @@
-import React from "react";
 import { BsFacebook, BsInstagram } from "react-icons/bs";
-import aboutImg from "../img/about-photo.png";
+import aboutImg from "../../img/about-photo.png";
 
-import lineImg from "../img/line.png";
+import lineImg from "../../img/line.png";
 
 const AboutUsCon = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import { useFetchCoffesQuery } from "../apis";
+import { useFetchCoffesQuery } from "../../apis";
 import ShopSectionCard from "./ShopSectionCard";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
 

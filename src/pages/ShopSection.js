@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useFetchCoffesQuery } from "../apis";
-import ShopSectionCard from "../components/ShopSectionCard";
-import Navbar from "../components/Navbar";
+import ShopSectionCard from "../features/shop/ShopSectionCard";
+import Navbar from "../features/navbar/Navbar";
 import Line from "../img/line.png";
 import Footer from "./Footer";
 import { AiOutlineLoading3Quarters } from "react-icons/ai";
